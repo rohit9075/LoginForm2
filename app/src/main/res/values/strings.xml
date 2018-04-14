@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LoginForm2</string>
+    <string name="text_password">Password</string>
+    <string name="text_email_id">Email Id</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="text_member_login">MEMBER LOGIN</string>
+    <string name="text_remember_me">Remember Me</string>
+    <string name="text_admin">Admin</string>
+    <string name="text_user_registration">User Registration</string>
+    <string name="text_user_login">User Login</string>
+    <string name="text_first_name">First Name</string>
+    <string name="text_last_name">Last Name</string>
+    <string name="text_mobile_number">Mobile Number</string>
+    <string name="text_dob">DOB</string>
+    <string name="text_confirm_password">Confirm Password</string>
+    <string name="text_already_a_member_login">Already a Member? Login</string>
+</resources>

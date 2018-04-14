@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".PreLoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        tools:ignore="UselessParent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dimen_16dp"
+        android:paddingTop="@dimen/dimen_16dp">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dimen_16dp"
+        android:layout_marginLeft="@dimen/dimen_16dp"
+        android:paddingBottom="44dp"
+        android:paddingTop="48dp"
+        android:background="@color/colorCardBackbround">
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/shape_login_button"
+            android:drawableEnd="@drawable/ic_arrow_forward_black_24dp"
+            android:drawableTint="@color/colorWhite"
+            android:paddingEnd="@dimen/dimen_10dp"
+            android:text="@string/text_admin"
+            android:textColor="@color/colorWhite"
+            android:tint="@color/colorWhite"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button3"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="RtlSymmetry"
+            tools:targetApi="m" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/shape_login_button"
+            android:drawableEnd="@drawable/ic_arrow_forward_black_24dp"
+            android:drawableTint="@color/colorWhite"
+            android:paddingEnd="@dimen/dimen_10dp"
+            android:text="@string/text_user_registration"
+            android:textColor="@color/colorWhite"
+            android:tint="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button2"
+            tools:ignore="RtlSymmetry"
+            tools:targetApi="m" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/shape_login_button"
+            android:drawableEnd="@drawable/ic_arrow_forward_black_24dp"
+            android:drawableTint="@color/colorWhite"
+            android:paddingEnd="@dimen/dimen_10dp"
+            android:text="@string/text_user_login"
+            android:textColor="@color/colorWhite"
+            android:tint="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="RtlSymmetry"
+            tools:targetApi="m" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

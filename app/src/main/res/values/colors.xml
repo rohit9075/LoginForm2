@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorCardBackbround">#078FC9</color>
+    <color name="colorBackground">#014262</color>
+    <color name="colorImageButtonBackground">#4DC3D4</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorEditTextBackgournd">#E6E6E6</color>
+    <color name="colorTextHint">#CECECE</color>
+    <color name="colorTextViewBackground">#667280</color>
+</resources>
