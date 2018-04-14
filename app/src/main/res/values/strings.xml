@@ -15,4 +15,5 @@
     <string name="text_dob">DOB</string>
     <string name="text_confirm_password">Confirm Password</string>
     <string name="text_already_a_member_login">Already a Member? Login</string>
+    <string name="text_admin_login">ADMIN LOGIN</string>
 </resources>

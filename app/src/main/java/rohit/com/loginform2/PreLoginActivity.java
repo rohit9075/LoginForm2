@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class PreLoginActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button mLoginbutton, mRegisterButton;
+    Button mLoginbutton, mRegisterButton, mAdminLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,9 +17,11 @@ public class PreLoginActivity extends AppCompatActivity implements View.OnClickL
 
         mLoginbutton= findViewById(R.id.button2);
         mRegisterButton = findViewById(R.id.button3);
+        mAdminLogin = findViewById(R.id.button);
 
         mLoginbutton.setOnClickListener(this);
         mRegisterButton.setOnClickListener(this);
+        mAdminLogin.setOnClickListener(this);
     }
 
     @Override
@@ -33,6 +35,10 @@ public class PreLoginActivity extends AppCompatActivity implements View.OnClickL
          case R.id.button3:
              Intent intent1 = new Intent(this, UserRegistration.class);
              startActivity(intent1);
+             break;
+         case R.id.button:
+             Intent mIntentAdminLogin = new Intent(this, AdminLoginActivity.class);
+             startActivity(mIntentAdminLogin);
 
 
      }

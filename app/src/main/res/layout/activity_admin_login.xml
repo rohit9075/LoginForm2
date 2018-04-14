@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".AdminLoginActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:paddingBottom="@dimen/dimen_16dp"
+            android:paddingTop="@dimen/dimen_16dp">
+
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="@dimen/dimen_16dp"
+                android:layout_marginStart="@dimen/dimen_16dp"
+                android:background="@color/colorCardBackbround"
+                android:paddingBottom="36dp">
+
+
+                <ImageButton
+                    android:id="@+id/imageButton2222"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="@dimen/dimen_8dp"
+                    android:background="@color/colorImageButtonBackground"
+                    android:contentDescription="@string/text_password"
+                    android:src="@drawable/ic_lock_outline_black_24dp"
+                    android:tint="@color/colorWhite"
+                    app:layout_constraintEnd_toStartOf="@+id/editText2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/colorEditTextBackgournd"
+                    android:ems="10"
+                    android:hint="@string/text_password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:paddingEnd="0dp"
+                    android:paddingStart="10dp"
+                    android:textColorHint="@color/colorTextHint"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton2222"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageButton2222"
+                    app:layout_constraintTop_toTopOf="@+id/imageButton2222" />
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="46dp"
+                    android:layout_height="46dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@color/colorImageButtonBackground"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_perm_identity_black_24dp"
+                    android:tint="@color/colorWhite"
+                    app:layout_constraintEnd_toStartOf="@+id/editText"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@color/colorEditTextBackgournd"
+                    android:ems="10"
+                    android:hint="@string/text_email_id"
+                    android:inputType="textPersonName|textEmailAddress"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/dimen_10dp"
+                    android:textColorHint="@color/colorTextHint"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageButton"
+                    app:layout_constraintTop_toTopOf="@+id/imageButton"
+                    tools:ignore="RtlSymmetry" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/shape_login_button"
+                    android:drawableEnd="@drawable/ic_arrow_forward_black_24dp"
+                    android:drawableTint="@color/colorWhite"
+                    android:paddingEnd="@dimen/dimen_10dp"
+                    android:text="@string/text_login"
+                    android:textColor="@color/colorWhite"
+                    android:tint="@color/colorWhite"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/checkBox"
+                    app:layout_constraintVertical_bias="0.0"
+                    tools:ignore="RtlSymmetry"
+                    tools:targetApi="m" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/dimen_80dp"
+                    android:background="@color/colorTextViewBackground"
+                    android:gravity="center"
+                    android:text="@string/text_admin_login"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/dimen_22sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="8dp"
+                    android:buttonTint="@color/colorWhite"
+                    android:text="@string/text_remember_me"
+                    android:textColor="@color/colorWhite"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton2222" />
+
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
